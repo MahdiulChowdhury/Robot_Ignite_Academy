@@ -11,22 +11,22 @@ def collision_avoidance(msg):
     
     print msg.ranges[360] #We print the distance to an obstacle in front of the robot
 
-#If the distance to an obstacle in front of the robot is bigger than 1 meter, the robot will move forward
+#If front distance is greater than 1, the robot will move forward
     if msg.ranges[360] > 1:
         move.linear.x = 0.1
         move.angular.z = 0.0
 
-#If the distance to an obstacle in front of the robot is smaller than 1 meter, the robot will turn left
+# If front distance is less than 1 ,the robot will turn left
     if msg.ranges[360] < 1: 
         move.linear.x = 0.0
         move.angular.z = 0.2
         
-#If the distance to an obstacle at the left side of the robot is smaller than 0.3 meters, the robot will turn right
+#If left side of the robot distance to the wall less than 0.5, the robot will turn right
     if msg.ranges[719] < 0.5:
         move.linear.x = 0.0
         move.angular.z = -0.2
         
-#If the distance to an obstacle at the right side of the robot is smaller than 0.3 meters, the robot will turn left
+#If right side of the robot distance to the wall less than 0.5, the robot will turn right
     if msg.ranges[0] < 0.5:
         move.linear.x = 0.0
         move.angular.z = 0.2
