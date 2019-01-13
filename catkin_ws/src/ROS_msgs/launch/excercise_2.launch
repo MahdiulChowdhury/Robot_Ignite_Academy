@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="ROS_msgs" type="simple_topic_subscriber.py" name="simple_topic_subscriber"  output="screen">
+    </node>
+</launch>

@@ -1,5 +1,0 @@
-<launch>
-    <!-- My Package launch file -->
-    <node pkg="exercise_2_2" type="simple_topic_subscriber.py" name="simple_topic_subscriber"  output="screen">
-    </node>
-</launch>

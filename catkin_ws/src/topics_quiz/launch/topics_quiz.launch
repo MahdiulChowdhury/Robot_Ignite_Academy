@@ -1,4 +1,0 @@
-<launch>
-    <node pkg="topics_quiz" type="quiz_one.py" name="topics_quiz_node" output="screen">
-    </node>
-</launch>
