@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/optimusprime/Robot_Ignite_Academy/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/optimusprime/Robot_Ignite_Academy/catkin_ws/install -G Unix Makefiles
