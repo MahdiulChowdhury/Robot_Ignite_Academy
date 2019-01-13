@@ -1,2 +1,2 @@
 # Robot_Ignite_Academy
-Taking courses in Robot Ignite Academy to enhance my ROS skills where I will solve different exercises. 
+Taking course in Robot Ignite Academy to enhance my ROS skills. Here is all the excercises and scripts to solve different probelem. 
