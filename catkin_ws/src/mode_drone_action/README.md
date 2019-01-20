@@ -1,2 +1,2 @@
 
-<img src="./Images/drone.png" width="80%" />
+<img src="./Images/drone.png" width="100%" />
